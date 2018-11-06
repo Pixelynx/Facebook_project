@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Klavika-Bold;
+  src: url("/home/nibblybits/Fonts/ufonts.com_klavika-bold-opentype.otf")
+  format("opentype");
+}
+
+body {
+  margin: 0px;
+  background-color: #EDF0F5;
+}
+
+
+.facebook {
+  background-image: url("./fb.png");
+  height: 34px;
+  width: 170px;
+  margin: 10px 142px 0px 0px;
+  /* margin-top: 10px;
+  margin-right: 140px; */
+  align-self: center;
+  justify-self: center;
+}
+
+.signIn_menu_container {
+  display: grid;
+  column-gap: 5%;
+  background-image: linear-gradient(#4C68A1, #3B5998 50%);
+  box-shadow: inset 0px -1px 0px #133783;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 82px;
+  /* min-width: 980px; */
+}
+
+.signIn_textBox {
+  font-size: 12px;
+  display: grid;
+  /* grid-template-columns: repeat(3, 20% 40%); */
+  grid-template-columns: 22% 22% 22% 34%;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-column: 2; */
+  /* align-self: center; */
+  /* justify-self: center */
+  /* margin: 0px 0px 0px 0px; */
+  margin-right: 1px;
+}
+
+#emailPhone_text {
+  color: #FFF;
+  grid-column: 1;
+  align-self: center;
+}
+
+#pass_text {
+  color: #FFF;
+  grid-column: 2;
+  align-self: center;
+}
+
+#email_box {
+  grid-column: 1;
+  align-self: center;
+}
+
+#pass_box {
+  grid-column: 2;
+  align-self: center;
+}
+
+#forgot {
+  color: #9cb4d8;
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+}
+
+input {
+  width: 142px;
+  border: 1px solid #1d2a5b;
+  padding-bottom: 4px;
+  padding-top: 2px;
+
+}
+
+.button {
+  border-radius: 2px;
+  background-color: #4267b2;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid #29487d;
+  padding: 2px 6px;
+  grid-column: 3;
+  float: right;
+  justify-self: flex-start;
+}
+
+.button:hover {
+  background-color: #365899;
+  border-color: #29487d;
+}
+
+.footer_links {
+  display: table;
+  background-color: #FFF;
+  color: #365899;
+  font-size: 12px;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.footer_links ul {
+  list-style-type: none;
+}
+
+.footer_links ul li {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 20px;
+}
